@@ -1,0 +1,84 @@
+body { font-size:100%; }
+h1 { font-size:2.25em;  /* 16x2.25=36 */ }
+h2 { font-size:1.5em;   /* 16x1.5=24 */ }
+h3 { font-size:1.125em; /* 16x1.125=18 */ }
+h4 { font-size:0.875em; /* 16x0.875=14 */ }
+p  { font-size:1em;  /* 16x1=16 */ }
+
+body {
+  font-family: Georgia, serif;
+  color: #959595;
+  letter-spacing: 0.1em;
+}
+
+span.amp {
+  font-family: Baskerville;
+  font-style: italic;
+}
+
+.opening {
+  color: #555;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+a {
+  color: #333;
+}
+
+body .site {
+  margin: 0 auto;
+  width: 960px;
+}
+
+h1.title {
+  margin-left: 10px;
+  color: #333;
+  font-style: italic;
+}
+
+.description {
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#contact {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 9px;
+}
+
+#ontheinternet, #resume {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+}
+
+#ontheinternet ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#ontheinternet ul li {
+  padding-bottom: 8px;
+}
+
+.at {
+  color: #5E8BB5;
+}
+
+#ontheinternet a {
+  text-decoration: none;
+  font-style: italic;
+}
