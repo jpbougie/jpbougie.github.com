@@ -14,6 +14,7 @@ body {
 span.amp {
   font-family: Baskerville;
   font-style: italic;
+  color: #5E8BB5;
 }
 
 .opening {
@@ -26,6 +27,8 @@ h1, h2, h3 {
 
 a {
   color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
 }
 
 body .site {
@@ -35,6 +38,8 @@ body .site {
 
 h1.title {
   margin-left: 10px;
+  margin-top: 5em;
+  margin-bottom: 2em;
   color: #333;
   font-style: italic;
 }
@@ -50,6 +55,11 @@ h1.title {
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
+}
+
+#contact, #ontheinternet, #resume {
+  margin-top: 2em;
+  border-top: 1px solid #aaa;
 }
 
 h3 {
