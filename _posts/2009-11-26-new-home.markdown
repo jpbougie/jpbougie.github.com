@@ -1,0 +1,8 @@
+---
+layout: post
+title: A New Home
+---
+
+I've decided to create this home page and presence on the Internet as a way of linking my diverse appearances and identities, and also as a way to express myself and practice writing.
+
+This site was built on Jekyll, a neat tool from Tom Preston-Werner that is possibly the most low-tech solution to a blogging engine that still does the job. I have found out that I am incapable of writing posts in a tiny text area of a browser, and Jekyll allows me to leisurely write them in TextMate, my favorite editor. It also fits with my current personal view of computing and life in general, one of minimalism and simplicity, which is readily seen in the current web design.

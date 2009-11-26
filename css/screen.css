@@ -5,6 +5,8 @@ h3 { font-size:1.125em; /* 16x1.125=18 */ }
 h4 { font-size:0.875em; /* 16x0.875=14 */ }
 p  { font-size:1em;  /* 16x1=16 */ }
 
+p { margin: 0; margin-left: 10px;}
+
 body {
   font-family: Georgia, serif;
   color: #959595;
@@ -36,12 +38,29 @@ body .site {
   width: 960px;
 }
 
-h1.title {
+.title {
   margin-left: 10px;
   margin-top: 5em;
   margin-bottom: 2em;
   color: #333;
   font-style: italic;
+}
+
+h1 { color: #333;}
+
+.title h1, .title h2 {
+  margin: 0;
+}
+
+.title h2 a {
+  color: #ccc;
+  border-bottom: 0;
+}
+
+a:hover {
+  border-bottom: 0 !important;
+  color: #3F6999 !important;
+  background-color: #D9EBFA;
 }
 
 .description {
@@ -63,8 +82,17 @@ h1.title {
 }
 
 h3 {
-  color: #333;
   margin-bottom: 9px;
+  color: #333;
+}
+
+h3.project {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+h3 em a {
+  color: #555;
 }
 
 #ontheinternet, #resume {
@@ -91,4 +119,13 @@ h3 {
 #ontheinternet a {
   text-decoration: none;
   font-style: italic;
+}
+
+.post {
+  width: 480px;
+  color: #555;
+}
+
+.post p {
+  margin-bottom: 9px;
 }
